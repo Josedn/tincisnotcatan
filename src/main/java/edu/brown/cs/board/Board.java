@@ -23,6 +23,12 @@ import java.util.List;
 import java.util.Map;
 import java.util.Set;
 
+import edu.brown.cs.board.entities.Path;
+import edu.brown.cs.board.entities.PathCoordinate;
+import edu.brown.cs.board.entities.Port;
+import edu.brown.cs.board.map.HexCoordinate;
+import edu.brown.cs.board.map.Intersection;
+import edu.brown.cs.board.map.IntersectionCoordinate;
 import edu.brown.cs.catan.GameSettings;
 import edu.brown.cs.catan.Player;
 import edu.brown.cs.catan.Settings;

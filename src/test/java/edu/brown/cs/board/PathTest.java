@@ -3,6 +3,10 @@ package edu.brown.cs.board;
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;
 
+import edu.brown.cs.board.entities.Path;
+import edu.brown.cs.board.map.HexCoordinate;
+import edu.brown.cs.board.map.Intersection;
+import edu.brown.cs.board.map.IntersectionCoordinate;
 import org.junit.Test;
 
 import edu.brown.cs.catan.HumanPlayer;

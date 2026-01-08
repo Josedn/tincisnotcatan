@@ -2,6 +2,8 @@ package edu.brown.cs.board;
 
 import static org.junit.Assert.assertTrue;
 
+import edu.brown.cs.board.map.HexCoordinate;
+import edu.brown.cs.board.map.IntersectionCoordinate;
 import org.junit.Test;
 
 public class IntersectionCoordinateTest {

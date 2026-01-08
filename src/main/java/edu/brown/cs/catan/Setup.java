@@ -3,7 +3,7 @@ package edu.brown.cs.catan;
 import java.util.Collections;
 import java.util.List;
 
-import edu.brown.cs.board.Intersection;
+import edu.brown.cs.board.map.Intersection;
 
 /**
  * Represents the GameSetup. Keeps track of the Snake draft turn order and the

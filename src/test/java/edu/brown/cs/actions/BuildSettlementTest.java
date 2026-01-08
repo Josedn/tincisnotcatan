@@ -2,10 +2,11 @@ package edu.brown.cs.actions;
 
 import static org.junit.Assert.assertTrue;
 
+import edu.brown.cs.actions.user.BuildSettlement;
 import org.junit.Test;
 
-import edu.brown.cs.board.HexCoordinate;
-import edu.brown.cs.board.IntersectionCoordinate;
+import edu.brown.cs.board.map.HexCoordinate;
+import edu.brown.cs.board.map.IntersectionCoordinate;
 import edu.brown.cs.catan.MasterReferee;
 import edu.brown.cs.catan.Referee;
 import edu.brown.cs.catan.Resource;

@@ -2,6 +2,8 @@ package edu.brown.cs.board;
 
 import static org.junit.Assert.assertTrue;
 
+import edu.brown.cs.board.entities.Path;
+import edu.brown.cs.board.map.*;
 import org.junit.Test;
 
 import edu.brown.cs.graph.Node;

@@ -2,6 +2,7 @@ package edu.brown.cs.board;
 
 import static org.junit.Assert.assertTrue;
 
+import edu.brown.cs.board.entities.Road;
 import org.junit.Test;
 
 import edu.brown.cs.catan.HumanPlayer;

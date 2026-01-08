@@ -1,10 +1,10 @@
 package edu.brown.cs.catan;
 
-import edu.brown.cs.actions.BuildCity;
-import edu.brown.cs.actions.BuildRoad;
-import edu.brown.cs.actions.BuildSettlement;
-import edu.brown.cs.board.HexCoordinate;
-import edu.brown.cs.board.IntersectionCoordinate;
+import edu.brown.cs.actions.user.BuildCity;
+import edu.brown.cs.actions.user.BuildRoad;
+import edu.brown.cs.actions.user.BuildSettlement;
+import edu.brown.cs.board.map.HexCoordinate;
+import edu.brown.cs.board.map.IntersectionCoordinate;
 
 /**
  * Used for Testing purposes.

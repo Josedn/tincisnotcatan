@@ -3,6 +3,8 @@ package edu.brown.cs.board;
 import java.util.List;
 import java.util.Set;
 
+import edu.brown.cs.board.map.HexCoordinate;
+import edu.brown.cs.board.map.IntersectionCoordinate;
 import edu.brown.cs.catan.Resource;
 
 /**

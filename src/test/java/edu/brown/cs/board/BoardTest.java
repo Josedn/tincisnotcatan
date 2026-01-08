@@ -6,6 +6,11 @@ import java.util.Collection;
 import java.util.HashMap;
 import java.util.Map;
 
+import edu.brown.cs.board.entities.Path;
+import edu.brown.cs.board.entities.PathCoordinate;
+import edu.brown.cs.board.map.HexCoordinate;
+import edu.brown.cs.board.map.Intersection;
+import edu.brown.cs.board.map.IntersectionCoordinate;
 import org.junit.Test;
 
 import edu.brown.cs.catan.GameSettings;

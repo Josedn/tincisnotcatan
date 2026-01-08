@@ -12,6 +12,12 @@ import java.util.Set;
 
 import com.google.common.collect.ImmutableSet;
 
+import edu.brown.cs.board.entities.Path;
+import edu.brown.cs.board.entities.PathCoordinate;
+import edu.brown.cs.board.entities.Port;
+import edu.brown.cs.board.map.HexCoordinate;
+import edu.brown.cs.board.map.Intersection;
+import edu.brown.cs.board.map.IntersectionCoordinate;
 import edu.brown.cs.catan.Resource;
 
 /**
@@ -44,8 +50,8 @@ public class Tile implements BoardTile {
    *          The type of resource associated with this tile.
    */
   public Tile(int rollNum, HexCoordinate coordinate,
-      Map<IntersectionCoordinate, Intersection> intersections,
-      Map<PathCoordinate, Path> paths, TileType type) {
+              Map<IntersectionCoordinate, Intersection> intersections,
+              Map<PathCoordinate, Path> paths, TileType type) {
     _type = type;
     _rollNum = rollNum;
     _coordinate = coordinate;

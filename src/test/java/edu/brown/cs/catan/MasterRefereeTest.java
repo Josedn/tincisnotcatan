@@ -5,8 +5,8 @@ import static org.junit.Assert.assertTrue;
 
 import org.junit.Test;
 
-import edu.brown.cs.board.HexCoordinate;
-import edu.brown.cs.board.IntersectionCoordinate;
+import edu.brown.cs.board.map.HexCoordinate;
+import edu.brown.cs.board.map.IntersectionCoordinate;
 
 public class MasterRefereeTest {
 

@@ -2,6 +2,7 @@ package edu.brown.cs.board;
 
 import static org.junit.Assert.assertTrue;
 
+import edu.brown.cs.board.map.HexCoordinate;
 import org.junit.Test;
 
 public class HexCoordinateTest {

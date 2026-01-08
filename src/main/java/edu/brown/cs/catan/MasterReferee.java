@@ -16,7 +16,7 @@ import java.util.Map;
 
 import edu.brown.cs.actions.FollowUpAction;
 import edu.brown.cs.board.Board;
-import edu.brown.cs.board.Intersection;
+import edu.brown.cs.board.map.Intersection;
 import edu.brown.cs.gamestats.CatanStats;
 import edu.brown.cs.gamestats.GameStats;
 

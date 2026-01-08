@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <class-diagram version="1.1.9" icons="true" automaticImage="PNG" always-add-relationships="false" generalizations="true" 
   realizations="true" associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
-  <class id="1" language="java" name="edu.brown.cs.actions.PlayKnight" project="catan" 
+  <class id="1" language="java" name="edu.brown.cs.actions.user.PlayKnight" project="catan"
     file="/catan/src/main/java/edu/brown/cs/actions/PlayKnight.java" binary="false" corner="BOTTOM_RIGHT">    
     <position height="101" width="108" x="257" y="70"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
@@ -10,7 +10,7 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="2" language="java" name="edu.brown.cs.actions.RollDice" project="catan" 
+  <class id="2" language="java" name="edu.brown.cs.actions.turn.RollDice" project="catan"
     file="/catan/src/main/java/edu/brown/cs/actions/RollDice.java" binary="false" corner="BOTTOM_RIGHT">    
     <position height="-1" width="-1" x="436" y="120"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
@@ -19,7 +19,7 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="3" language="java" name="edu.brown.cs.actions.PlayYearOfPlenty" project="catan" 
+  <class id="3" language="java" name="edu.brown.cs.actions.user.PlayYearOfPlenty" project="catan"
     file="/catan/src/main/java/edu/brown/cs/actions/PlayYearOfPlenty.java" binary="false" corner="BOTTOM_RIGHT">    
     <position height="-1" width="-1" x="581" y="120"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
@@ -46,7 +46,7 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </interface>  
-  <class id="6" language="java" name="edu.brown.cs.actions.BuildSettlement" project="catan" 
+  <class id="6" language="java" name="edu.brown.cs.actions.user.BuildSettlement" project="catan"
     file="/catan/src/main/java/edu/brown/cs/actions/BuildSettlement.java" binary="false" corner="BOTTOM_RIGHT">    
     <position height="-1" width="-1" x="744" y="353"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
@@ -55,7 +55,7 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="7" language="java" name="edu.brown.cs.actions.PlayMonopoly" project="catan" 
+  <class id="7" language="java" name="edu.brown.cs.actions.user.PlayMonopoly" project="catan"
     file="/catan/src/main/java/edu/brown/cs/actions/PlayMonopoly.java" binary="false" corner="BOTTOM_RIGHT">    
     <position height="-1" width="-1" x="747" y="476"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
@@ -64,7 +64,7 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="8" language="java" name="edu.brown.cs.actions.BuildCity" project="catan" 
+  <class id="8" language="java" name="edu.brown.cs.actions.user.BuildCity" project="catan"
     file="/catan/src/main/java/edu/brown/cs/actions/BuildCity.java" binary="false" corner="BOTTOM_RIGHT">    
     <position height="-1" width="-1" x="732" y="615"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
@@ -73,7 +73,7 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="9" language="java" name="edu.brown.cs.actions.MoveRobber" project="catan" 
+  <class id="9" language="java" name="edu.brown.cs.actions.misc.MoveRobber" project="catan"
     file="/catan/src/main/java/edu/brown/cs/actions/MoveRobber.java" binary="false" corner="BOTTOM_RIGHT">    
     <position height="-1" width="-1" x="558" y="647"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
@@ -82,7 +82,7 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="10" language="java" name="edu.brown.cs.actions.PlayRoadBuilding" project="catan" 
+  <class id="10" language="java" name="edu.brown.cs.actions.user.PlayRoadBuilding" project="catan"
     file="/catan/src/main/java/edu/brown/cs/actions/PlayRoadBuilding.java" binary="false" corner="BOTTOM_RIGHT">    
     <position height="-1" width="-1" x="353" y="661"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
@@ -91,7 +91,7 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="11" language="java" name="edu.brown.cs.actions.ProposeTrade" project="catan" 
+  <class id="11" language="java" name="edu.brown.cs.actions.trade.ProposeTrade" project="catan"
     file="/catan/src/main/java/edu/brown/cs/actions/ProposeTrade.java" binary="false" corner="BOTTOM_RIGHT">    
     <position height="-1" width="-1" x="113" y="658"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
@@ -100,7 +100,7 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="12" language="java" name="edu.brown.cs.actions.BuildRoad" project="catan" 
+  <class id="12" language="java" name="edu.brown.cs.actions.user.BuildRoad" project="catan"
     file="/catan/src/main/java/edu/brown/cs/actions/BuildRoad.java" binary="false" corner="BOTTOM_RIGHT">    
     <position height="-1" width="-1" x="73" y="300"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
