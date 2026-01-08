@@ -1,4 +1,4 @@
-package edu.brown.cs.networking;
+package edu.brown.cs.networking.users;
 
 import static edu.brown.cs.networking.Util.print;
 
@@ -10,11 +10,15 @@ import java.util.Queue;
 
 import com.google.common.collect.EvictingQueue;
 import com.google.gson.JsonObject;
+import edu.brown.cs.networking.*;
+import edu.brown.cs.networking.apis.API;
+import edu.brown.cs.networking.groups.Group;
+import edu.brown.cs.networking.messages.Message;
 
 public class UserGroup implements Group {
 
-  private UserTable              table;
-  private API                    api;
+  private UserTable table;
+  private API api;
   private final UserGroupBuilder myBuilder;
   private final Queue<Message>   messageLog;
 

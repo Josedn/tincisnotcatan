@@ -2,7 +2,7 @@ package edu.brown.cs.actions;
 
 import com.google.gson.JsonObject;
 
-import edu.brown.cs.catan.Referee;
+import edu.brown.cs.catan.referee.Referee;
 
 /**
  * Interface for how FollowUp actions should act.

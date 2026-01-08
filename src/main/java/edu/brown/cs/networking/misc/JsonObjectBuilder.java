@@ -1,9 +1,9 @@
-package edu.brown.cs.networking;
+package edu.brown.cs.networking.misc;
 
 import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
 
-class JsonObjectBuilder {
+public class JsonObjectBuilder {
 
   private JsonObject j;
 

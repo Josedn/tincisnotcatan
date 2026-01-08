@@ -5,8 +5,8 @@ import static org.junit.Assert.assertTrue;
 import edu.brown.cs.board.entities.Road;
 import org.junit.Test;
 
-import edu.brown.cs.catan.HumanPlayer;
-import edu.brown.cs.catan.Player;
+import edu.brown.cs.catan.player.HumanPlayer;
+import edu.brown.cs.catan.player.Player;
 
 public class RoadTest {
 

@@ -1,4 +1,7 @@
-package edu.brown.cs.catan;
+package edu.brown.cs.catan.bank;
+
+import edu.brown.cs.catan.Resource;
+import edu.brown.cs.catan.settings.Settings;
 
 import java.util.Map;
 

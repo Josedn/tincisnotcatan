@@ -23,10 +23,10 @@ import edu.brown.cs.board.entities.Road;
 import edu.brown.cs.board.Tile;
 import edu.brown.cs.board.TileType;
 import edu.brown.cs.catan.DevelopmentCard;
-import edu.brown.cs.catan.GameSettings;
-import edu.brown.cs.catan.Player;
-import edu.brown.cs.catan.Referee;
-import edu.brown.cs.catan.Referee.GameStatus;
+import edu.brown.cs.catan.settings.GameSettings;
+import edu.brown.cs.catan.player.Player;
+import edu.brown.cs.catan.referee.Referee;
+import edu.brown.cs.catan.referee.Referee.GameStatus;
 import edu.brown.cs.catan.Resource;
 
 public class CatanConverter {

@@ -7,13 +7,13 @@ import static edu.brown.cs.board.TileType.SEA;
 import static edu.brown.cs.board.TileType.SHEEP;
 import static edu.brown.cs.board.TileType.WHEAT;
 import static edu.brown.cs.board.TileType.WOOD;
-import static edu.brown.cs.catan.Settings.NUM_BRICK_TILE;
-import static edu.brown.cs.catan.Settings.NUM_DESERT_TILE;
-import static edu.brown.cs.catan.Settings.NUM_ORE_TILE;
-import static edu.brown.cs.catan.Settings.NUM_SHEEP_TILE;
-import static edu.brown.cs.catan.Settings.NUM_WHEAT_TILE;
-import static edu.brown.cs.catan.Settings.NUM_WOOD_TILE;
-import static edu.brown.cs.catan.Settings.ROLL_NUMS;
+import static edu.brown.cs.catan.settings.Settings.NUM_BRICK_TILE;
+import static edu.brown.cs.catan.settings.Settings.NUM_DESERT_TILE;
+import static edu.brown.cs.catan.settings.Settings.NUM_ORE_TILE;
+import static edu.brown.cs.catan.settings.Settings.NUM_SHEEP_TILE;
+import static edu.brown.cs.catan.settings.Settings.NUM_WHEAT_TILE;
+import static edu.brown.cs.catan.settings.Settings.NUM_WOOD_TILE;
+import static edu.brown.cs.catan.settings.Settings.ROLL_NUMS;
 
 import java.util.ArrayList;
 import java.util.Collection;
@@ -29,9 +29,9 @@ import edu.brown.cs.board.entities.Port;
 import edu.brown.cs.board.map.HexCoordinate;
 import edu.brown.cs.board.map.Intersection;
 import edu.brown.cs.board.map.IntersectionCoordinate;
-import edu.brown.cs.catan.GameSettings;
-import edu.brown.cs.catan.Player;
-import edu.brown.cs.catan.Settings;
+import edu.brown.cs.catan.settings.GameSettings;
+import edu.brown.cs.catan.player.Player;
+import edu.brown.cs.catan.settings.Settings;
 
 /**
  * Board Class. Functions as a container class for all of the board data.

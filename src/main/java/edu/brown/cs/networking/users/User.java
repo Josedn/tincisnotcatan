@@ -1,4 +1,4 @@
-package edu.brown.cs.networking;
+package edu.brown.cs.networking.users;
 
 import static edu.brown.cs.networking.Util.format;
 

@@ -8,6 +8,11 @@ import java.util.Set;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import com.google.gson.JsonObject;
+import edu.brown.cs.networking.groups.Group;
+import edu.brown.cs.networking.groups.GroupSerializer;
+import edu.brown.cs.networking.misc.JsonObjectBuilder;
+import edu.brown.cs.networking.users.User;
+import edu.brown.cs.networking.users.UserSerializer;
 
 // Convenience constants
 public class Networking {

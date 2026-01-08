@@ -11,9 +11,9 @@ import edu.brown.cs.board.map.Intersection;
 import edu.brown.cs.board.map.IntersectionCoordinate;
 import edu.brown.cs.board.entities.Path;
 import edu.brown.cs.board.entities.PathCoordinate;
-import edu.brown.cs.catan.Player;
-import edu.brown.cs.catan.Referee;
-import edu.brown.cs.catan.Referee.GameStatus;
+import edu.brown.cs.catan.player.Player;
+import edu.brown.cs.catan.referee.Referee;
+import edu.brown.cs.catan.referee.Referee.GameStatus;
 
 /**
  * Action responsible for building a road during game play.

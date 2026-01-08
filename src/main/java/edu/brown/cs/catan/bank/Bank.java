@@ -1,4 +1,6 @@
-package edu.brown.cs.catan;
+package edu.brown.cs.catan.bank;
+
+import edu.brown.cs.catan.Resource;
 
 /**
  * Represents a Catan Bank. A Bank must give bank trade and port trade rates. A

@@ -1,4 +1,6 @@
-package edu.brown.cs.networking;
+package edu.brown.cs.networking.users;
+
+import edu.brown.cs.networking.Networking;
 
 import java.util.Collection;
 import java.util.Collections;

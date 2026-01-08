@@ -7,12 +7,12 @@ import java.util.Optional;
 
 import com.google.gson.JsonObject;
 
-import edu.brown.cs.networking.DistinctRandom;
-import edu.brown.cs.networking.Group;
-import edu.brown.cs.networking.GroupSelector;
+import edu.brown.cs.networking.misc.DistinctRandom;
+import edu.brown.cs.networking.groups.Group;
+import edu.brown.cs.networking.groups.GroupSelector;
 import edu.brown.cs.networking.RequestProcessor;
-import edu.brown.cs.networking.User;
-import edu.brown.cs.networking.UserGroup.UserGroupBuilder;
+import edu.brown.cs.networking.users.User;
+import edu.brown.cs.networking.users.UserGroup.UserGroupBuilder;
 
 public class CatanGroupSelector implements GroupSelector {
 

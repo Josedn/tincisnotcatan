@@ -1,6 +1,7 @@
-package edu.brown.cs.networking;
+package edu.brown.cs.networking.messages;
 
 import com.google.gson.JsonObject;
+import edu.brown.cs.networking.users.User;
 
 public final class Message {
 

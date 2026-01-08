@@ -3,6 +3,10 @@ package edu.brown.cs.catan;
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;
 
+import edu.brown.cs.catan.player.Player;
+import edu.brown.cs.catan.referee.MasterReferee;
+import edu.brown.cs.catan.referee.Referee;
+import edu.brown.cs.catan.settings.Settings;
 import org.junit.Test;
 
 import edu.brown.cs.board.map.HexCoordinate;

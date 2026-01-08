@@ -9,8 +9,8 @@ import com.google.common.collect.ImmutableMap;
 
 import edu.brown.cs.actions.*;
 import edu.brown.cs.catan.DevelopmentCard;
-import edu.brown.cs.catan.Player;
-import edu.brown.cs.catan.Referee;
+import edu.brown.cs.catan.player.Player;
+import edu.brown.cs.catan.referee.Referee;
 
 /**
  * Action responsible for ending a turn.

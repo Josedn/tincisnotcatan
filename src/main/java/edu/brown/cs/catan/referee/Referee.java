@@ -1,4 +1,4 @@
-package edu.brown.cs.catan;
+package edu.brown.cs.catan.referee;
 
 import java.util.Collection;
 import java.util.List;
@@ -6,6 +6,10 @@ import java.util.Map;
 
 import edu.brown.cs.actions.FollowUpAction;
 import edu.brown.cs.board.Board;
+import edu.brown.cs.catan.*;
+import edu.brown.cs.catan.bank.Bank;
+import edu.brown.cs.catan.player.Player;
+import edu.brown.cs.catan.settings.GameSettings;
 import edu.brown.cs.gamestats.GameStats;
 
 public interface Referee {

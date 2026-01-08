@@ -2,12 +2,12 @@ package edu.brown.cs.api;
 
 import com.google.gson.JsonObject;
 
-import edu.brown.cs.networking.API;
-import edu.brown.cs.networking.Group;
-import edu.brown.cs.networking.Message;
+import edu.brown.cs.networking.apis.API;
+import edu.brown.cs.networking.groups.Group;
+import edu.brown.cs.networking.messages.Message;
 import edu.brown.cs.networking.Networking;
 import edu.brown.cs.networking.RequestProcessor;
-import edu.brown.cs.networking.User;
+import edu.brown.cs.networking.users.User;
 
 
 public class ChatProcessor implements RequestProcessor {

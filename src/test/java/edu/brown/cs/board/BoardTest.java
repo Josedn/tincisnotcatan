@@ -13,9 +13,9 @@ import edu.brown.cs.board.map.Intersection;
 import edu.brown.cs.board.map.IntersectionCoordinate;
 import org.junit.Test;
 
-import edu.brown.cs.catan.GameSettings;
-import edu.brown.cs.catan.HumanPlayer;
-import edu.brown.cs.catan.Player;
+import edu.brown.cs.catan.settings.GameSettings;
+import edu.brown.cs.catan.player.HumanPlayer;
+import edu.brown.cs.catan.player.Player;
 
 public class BoardTest {
 

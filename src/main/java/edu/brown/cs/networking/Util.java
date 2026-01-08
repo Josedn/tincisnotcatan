@@ -1,7 +1,7 @@
 package edu.brown.cs.networking;
 
 
-class Util {
+public class Util {
 
   public static void print(String s) {
     System.out.println(s);

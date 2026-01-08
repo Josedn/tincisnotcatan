@@ -11,9 +11,9 @@ import org.junit.Test;
 
 import com.google.gson.JsonObject;
 
-import edu.brown.cs.catan.MasterReferee;
-import edu.brown.cs.catan.Player;
-import edu.brown.cs.catan.Referee;
+import edu.brown.cs.catan.referee.MasterReferee;
+import edu.brown.cs.catan.player.Player;
+import edu.brown.cs.catan.referee.Referee;
 import edu.brown.cs.catan.Resource;
 
 public class DropCardsTest {

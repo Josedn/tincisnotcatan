@@ -1,6 +1,6 @@
 package edu.brown.cs.board.entities;
 
-import edu.brown.cs.catan.Player;
+import edu.brown.cs.catan.player.Player;
 
 /**
  * Class that is the representation of roads.

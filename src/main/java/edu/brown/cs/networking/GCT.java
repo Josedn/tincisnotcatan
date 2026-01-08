@@ -9,6 +9,8 @@ import java.util.Map;
 import java.util.Set;
 import java.util.concurrent.ConcurrentHashMap;
 
+import edu.brown.cs.networking.groups.*;
+import edu.brown.cs.networking.users.User;
 import org.eclipse.jetty.util.ConcurrentHashSet;
 
 import com.google.gson.JsonObject;
@@ -25,7 +27,7 @@ public final class GCT {
   private final Set<Group>       pending;
   private final Set<Group>       full;
   private final Map<User, Group> userToUserGroup;
-  private final GroupSelector    groupSelector;
+  private final GroupSelector groupSelector;
 
   private static final int       GAME_LIMIT = 20;
 

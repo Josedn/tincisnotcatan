@@ -10,7 +10,7 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </enumeration>  
-  <class id="2" language="java" name="edu.brown.cs.catan.Settings" project="catan" 
+  <class id="2" language="java" name="edu.brown.cs.catan.settings.Settings" project="catan"
     file="/catan/src/main/java/edu/brown/cs/catan/Settings.java" binary="false" corner="BOTTOM_RIGHT">    
     <position height="137" width="179" x="348" y="14"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
@@ -19,7 +19,7 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="3" language="java" name="edu.brown.cs.catan.HumanPlayer" project="catan" 
+  <class id="3" language="java" name="edu.brown.cs.catan.player.HumanPlayer" project="catan"
     file="/catan/src/main/java/edu/brown/cs/catan/HumanPlayer.java" binary="false" corner="BOTTOM_RIGHT">    
     <position height="281" width="288" x="567" y="14"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
@@ -37,7 +37,7 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </enumeration>  
-  <interface id="5" language="java" name="edu.brown.cs.catan.Bank" project="catan" 
+  <interface id="5" language="java" name="edu.brown.cs.catan.bank.Bank" project="catan"
     file="/catan/src/main/java/edu/brown/cs/catan/Bank.java" binary="false" corner="BOTTOM_RIGHT">    
     <position height="-1" width="-1" x="434" y="253"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
@@ -46,7 +46,7 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </interface>  
-  <interface id="6" language="java" name="edu.brown.cs.catan.Referee" project="catan" 
+  <interface id="6" language="java" name="edu.brown.cs.catan.referee.Referee" project="catan"
     file="/catan/src/main/java/edu/brown/cs/catan/Referee.java" binary="false" corner="BOTTOM_RIGHT">    
     <position height="-1" width="-1" x="433" y="369"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
@@ -64,7 +64,7 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <interface id="8" language="java" name="edu.brown.cs.catan.Player" project="catan" 
+  <interface id="8" language="java" name="edu.brown.cs.catan.player.Player" project="catan"
     file="/catan/src/main/java/edu/brown/cs/catan/Player.java" binary="false" corner="BOTTOM_RIGHT">    
     <position height="227" width="288" x="567" y="335"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 

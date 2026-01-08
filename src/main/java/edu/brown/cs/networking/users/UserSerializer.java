@@ -1,4 +1,4 @@
-package edu.brown.cs.networking;
+package edu.brown.cs.networking.users;
 
 import java.lang.reflect.Type;
 
@@ -8,7 +8,7 @@ import com.google.gson.JsonSerializationContext;
 import com.google.gson.JsonSerializer;
 
 
-class UserSerializer implements JsonSerializer<User> {
+public class UserSerializer implements JsonSerializer<User> {
 
   @Override
   public JsonElement serialize(User src, Type typeOfSrc,

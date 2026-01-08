@@ -1,11 +1,11 @@
-package edu.brown.cs.catan;
+package edu.brown.cs.catan.referee;
 
-import static edu.brown.cs.catan.Settings.CITY_POINT_VAL;
-import static edu.brown.cs.catan.Settings.INITIAL_CITIES;
-import static edu.brown.cs.catan.Settings.INITIAL_SETTLEMENTS;
-import static edu.brown.cs.catan.Settings.LARGEST_ARMY_POINT_VAL;
-import static edu.brown.cs.catan.Settings.LONGEST_ROAD_POINT_VAL;
-import static edu.brown.cs.catan.Settings.SETTLEMENT_POINT_VAL;
+import static edu.brown.cs.catan.settings.Settings.CITY_POINT_VAL;
+import static edu.brown.cs.catan.settings.Settings.INITIAL_CITIES;
+import static edu.brown.cs.catan.settings.Settings.INITIAL_SETTLEMENTS;
+import static edu.brown.cs.catan.settings.Settings.LARGEST_ARMY_POINT_VAL;
+import static edu.brown.cs.catan.settings.Settings.LONGEST_ROAD_POINT_VAL;
+import static edu.brown.cs.catan.settings.Settings.SETTLEMENT_POINT_VAL;
 
 import java.util.ArrayList;
 import java.util.Collection;
@@ -17,6 +17,14 @@ import java.util.Map;
 import edu.brown.cs.actions.FollowUpAction;
 import edu.brown.cs.board.Board;
 import edu.brown.cs.board.map.Intersection;
+import edu.brown.cs.catan.*;
+import edu.brown.cs.catan.bank.Bank;
+import edu.brown.cs.catan.bank.DynamicBank;
+import edu.brown.cs.catan.bank.SimpleBank;
+import edu.brown.cs.catan.player.HumanPlayer;
+import edu.brown.cs.catan.player.Player;
+import edu.brown.cs.catan.settings.GameSettings;
+import edu.brown.cs.catan.settings.Settings;
 import edu.brown.cs.gamestats.CatanStats;
 import edu.brown.cs.gamestats.GameStats;
 

@@ -75,7 +75,7 @@ public class Turn {
     return Collections.unmodifiableMap(_initialDevCardHand);
   }
 
-  void addFollowUp(Collection<FollowUpAction> actions) {
+  public void addFollowUp(Collection<FollowUpAction> actions) {
     List<FollowUpAction> actionsCopy = new ArrayList<>();
     for (FollowUpAction action : actions) {
       actionsCopy.add(action);

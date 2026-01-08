@@ -1,4 +1,4 @@
-package edu.brown.cs.catan;
+package edu.brown.cs.catan.settings;
 
 import com.google.gson.JsonObject;
 

@@ -1,8 +1,11 @@
 package edu.brown.cs.networking;
 
+import edu.brown.cs.networking.groups.Group;
+import edu.brown.cs.networking.users.User;
+
 class DisconnectUserTask implements Runnable {
 
-  private User   u;
+  private User u;
   @SuppressWarnings("unused")
   private int    statusCode;
   @SuppressWarnings("unused")

@@ -1,8 +1,9 @@
-package edu.brown.cs.catan;
+package edu.brown.cs.catan.settings;
 
 import java.util.Map;
 
 import com.google.common.collect.ImmutableMap;
+import edu.brown.cs.catan.Resource;
 
 /**
  * Constants for Settings that are used across all instances of a game.

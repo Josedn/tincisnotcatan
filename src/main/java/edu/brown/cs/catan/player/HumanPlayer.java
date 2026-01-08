@@ -1,10 +1,14 @@
-package edu.brown.cs.catan;
+package edu.brown.cs.catan.player;
 
 import java.util.Collections;
 import java.util.HashMap;
 import java.util.Map;
 
 import edu.brown.cs.actions.CatanFormats;
+import edu.brown.cs.catan.DevelopmentCard;
+import edu.brown.cs.catan.Resource;
+import edu.brown.cs.catan.settings.Settings;
+import edu.brown.cs.catan.bank.Bank;
 
 /**
  * Represents a Catan Player. Contains all Player information inclduing number

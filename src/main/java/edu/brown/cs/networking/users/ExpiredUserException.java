@@ -1,7 +1,7 @@
-package edu.brown.cs.networking;
+package edu.brown.cs.networking.users;
 
 
-class ExpiredUserException extends Exception {
+public class ExpiredUserException extends Exception {
 
   /**
    *

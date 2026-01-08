@@ -1,4 +1,8 @@
-package edu.brown.cs.catan;
+package edu.brown.cs.catan.player;
+
+import edu.brown.cs.catan.DevelopmentCard;
+import edu.brown.cs.catan.Resource;
+import edu.brown.cs.catan.bank.Bank;
 
 import java.util.Map;
 

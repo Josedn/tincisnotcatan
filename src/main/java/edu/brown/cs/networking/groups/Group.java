@@ -1,9 +1,11 @@
-package edu.brown.cs.networking;
+package edu.brown.cs.networking.groups;
 
 import java.util.Collection;
 import java.util.List;
 
 import com.google.gson.JsonObject;
+import edu.brown.cs.networking.messages.Message;
+import edu.brown.cs.networking.users.User;
 
 /**
  * Abstraction for a Group of Users

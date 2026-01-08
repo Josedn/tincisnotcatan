@@ -1,6 +1,9 @@
 package edu.brown.cs.networking;
 
 import com.google.gson.JsonObject;
+import edu.brown.cs.networking.apis.API;
+import edu.brown.cs.networking.groups.Group;
+import edu.brown.cs.networking.users.User;
 
 /**
  * The GCT makes no assumptions about the format of messages that the developer

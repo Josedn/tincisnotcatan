@@ -4,8 +4,8 @@ import static org.junit.Assert.assertTrue;
 
 import org.junit.Test;
 
-import edu.brown.cs.catan.MasterReferee;
-import edu.brown.cs.catan.Referee;
+import edu.brown.cs.catan.referee.MasterReferee;
+import edu.brown.cs.catan.referee.Referee;
 
 public class ActionFactoryTest {
 

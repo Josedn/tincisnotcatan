@@ -1,4 +1,4 @@
-package edu.brown.cs.networking;
+package edu.brown.cs.networking.groups;
 
 import static edu.brown.cs.networking.Util.format;
 
@@ -6,6 +6,8 @@ import java.io.IOException;
 import java.util.HashSet;
 import java.util.Set;
 
+import edu.brown.cs.networking.GCT;
+import edu.brown.cs.networking.Networking;
 import org.eclipse.jetty.websocket.api.Session;
 import org.eclipse.jetty.websocket.api.annotations.OnWebSocketClose;
 import org.eclipse.jetty.websocket.api.annotations.OnWebSocketConnect;
@@ -17,7 +19,7 @@ import com.google.gson.JsonObject;
 @WebSocket
 public class GroupViewWebsocket {
 
-  private static GCT          gct;
+  private static GCT gct;
   private static Set<Session> viewers = new HashSet<>();
 
 

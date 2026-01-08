@@ -8,8 +8,8 @@ import com.google.gson.JsonObject;
 import edu.brown.cs.actions.ActionResponse;
 import edu.brown.cs.actions.FollowUpAction;
 import edu.brown.cs.actions.user.PlayKnight;
-import edu.brown.cs.catan.Player;
-import edu.brown.cs.catan.Referee;
+import edu.brown.cs.catan.player.Player;
+import edu.brown.cs.catan.referee.Referee;
 
 /**
  * Action responsible for determining what a player does at the beginning of

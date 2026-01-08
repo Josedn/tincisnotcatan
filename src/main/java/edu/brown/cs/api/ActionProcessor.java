@@ -5,11 +5,11 @@ import java.util.Map;
 import com.google.gson.Gson;
 import com.google.gson.JsonObject;
 
-import edu.brown.cs.networking.API;
-import edu.brown.cs.networking.Group;
+import edu.brown.cs.networking.apis.API;
+import edu.brown.cs.networking.groups.Group;
 import edu.brown.cs.networking.Networking;
 import edu.brown.cs.networking.RequestProcessor;
-import edu.brown.cs.networking.User;
+import edu.brown.cs.networking.users.User;
 
 public class ActionProcessor implements RequestProcessor {
 

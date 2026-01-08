@@ -1,15 +1,19 @@
-package edu.brown.cs.networking;
+package edu.brown.cs.networking.messages;
 
 import static edu.brown.cs.networking.Util.print;
 
 import com.google.gson.JsonObject;
 import com.google.gson.JsonSyntaxException;
+import edu.brown.cs.networking.GCT;
+import edu.brown.cs.networking.Networking;
+import edu.brown.cs.networking.groups.Group;
+import edu.brown.cs.networking.users.User;
 
-class MessageUserTask implements Runnable {
+public class MessageUserTask implements Runnable {
 
-  private User   u;
+  private User u;
   private String message;
-  private GCT    gct;
+  private GCT gct;
 
 
   public MessageUserTask(User u, String message, GCT gct) {

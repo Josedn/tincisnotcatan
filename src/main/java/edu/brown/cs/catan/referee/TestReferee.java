@@ -1,10 +1,12 @@
-package edu.brown.cs.catan;
+package edu.brown.cs.catan.referee;
 
 import edu.brown.cs.actions.user.BuildCity;
 import edu.brown.cs.actions.user.BuildRoad;
 import edu.brown.cs.actions.user.BuildSettlement;
 import edu.brown.cs.board.map.HexCoordinate;
 import edu.brown.cs.board.map.IntersectionCoordinate;
+import edu.brown.cs.catan.player.Player;
+import edu.brown.cs.catan.Resource;
 
 /**
  * Used for Testing purposes.

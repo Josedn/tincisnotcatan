@@ -1,4 +1,6 @@
-package edu.brown.cs.catan;
+package edu.brown.cs.catan.bank;
+
+import edu.brown.cs.catan.Resource;
 
 import java.util.HashMap;
 import java.util.Map;

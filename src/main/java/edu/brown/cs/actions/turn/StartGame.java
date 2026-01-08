@@ -17,8 +17,8 @@ import edu.brown.cs.actions.ActionResponse;
 import edu.brown.cs.actions.FollowUpAction;
 import edu.brown.cs.actions.user.PlaceInitialSettlement;
 import edu.brown.cs.actions.user.PlaceRoad;
-import edu.brown.cs.catan.Referee;
-import edu.brown.cs.catan.Referee.GameStatus;
+import edu.brown.cs.catan.referee.Referee;
+import edu.brown.cs.catan.referee.Referee.GameStatus;
 
 /**
  * Action responsible for starting the game.

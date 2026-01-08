@@ -10,8 +10,8 @@ import edu.brown.cs.actions.Action;
 import edu.brown.cs.actions.ActionResponse;
 import edu.brown.cs.board.entities.Path;
 import edu.brown.cs.catan.DevelopmentCard;
-import edu.brown.cs.catan.Player;
-import edu.brown.cs.catan.Referee;
+import edu.brown.cs.catan.player.Player;
+import edu.brown.cs.catan.referee.Referee;
 
 /**
  * Action responsible for playing roadBuilding card

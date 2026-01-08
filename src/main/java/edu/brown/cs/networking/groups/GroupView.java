@@ -1,13 +1,15 @@
-package edu.brown.cs.networking;
+package edu.brown.cs.networking.groups;
 
 import java.util.Collection;
 import java.util.List;
 
 import com.google.gson.JsonObject;
 import com.google.gson.annotations.SerializedName;
+import edu.brown.cs.networking.messages.Message;
+import edu.brown.cs.networking.users.User;
 
 
-class GroupView implements Group {
+public class GroupView implements Group {
 
   @SerializedName("group")
   private Group inner;

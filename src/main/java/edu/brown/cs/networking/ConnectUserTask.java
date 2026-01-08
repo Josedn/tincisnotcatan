@@ -1,5 +1,8 @@
 package edu.brown.cs.networking;
 
+import edu.brown.cs.networking.groups.Group;
+import edu.brown.cs.networking.users.User;
+
 class ConnectUserTask implements Runnable {
 
   private User u;

@@ -22,9 +22,9 @@ import edu.brown.cs.actions.trade.TradeWithBank;
 import edu.brown.cs.actions.UpdateResource;
 import edu.brown.cs.board.map.HexCoordinate;
 import edu.brown.cs.board.map.IntersectionCoordinate;
-import edu.brown.cs.catan.MasterReferee;
-import edu.brown.cs.catan.Player;
-import edu.brown.cs.catan.Referee;
+import edu.brown.cs.catan.referee.MasterReferee;
+import edu.brown.cs.catan.player.Player;
+import edu.brown.cs.catan.referee.Referee;
 
 public class ActionFactory {
 

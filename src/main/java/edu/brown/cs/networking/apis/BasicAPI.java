@@ -1,4 +1,4 @@
-package edu.brown.cs.networking;
+package edu.brown.cs.networking.apis;
 
 import static edu.brown.cs.networking.Util.print;
 
@@ -7,7 +7,7 @@ import java.util.Map;
 import com.google.gson.JsonObject;
 
 // for demo purposes: an implementation of an API that prints out its calls.
-class BasicAPI implements API {
+public class BasicAPI implements API {
 
   @Override
   public JsonObject getGameState(int forPlayer) {

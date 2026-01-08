@@ -5,6 +5,9 @@ import static org.junit.Assert.assertTrue;
 
 import java.util.Map;
 
+import edu.brown.cs.catan.player.HumanPlayer;
+import edu.brown.cs.catan.player.Player;
+import edu.brown.cs.catan.settings.Settings;
 import org.junit.Test;
 
 public class HumanPlayerTest {
@@ -125,7 +128,7 @@ public class HumanPlayerTest {
     assertFalse(p1.canBuildRoad());
     p1.addResource(Resource.BRICK, Settings.INITIAL_ROADS);
     p1.addResource(Resource.WOOD, Settings.INITIAL_ROADS);
-    for(int i =0; i < Settings.INITIAL_ROADS - 2; i++){
+    for(int i = 0; i < Settings.INITIAL_ROADS - 2; i++){
       p1.buildRoad();
       p1.useRoad();
     }

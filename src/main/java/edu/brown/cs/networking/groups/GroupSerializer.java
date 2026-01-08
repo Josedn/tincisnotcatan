@@ -1,4 +1,4 @@
-package edu.brown.cs.networking;
+package edu.brown.cs.networking.groups;
 
 import java.lang.reflect.Type;
 import java.util.Collection;
@@ -7,9 +7,11 @@ import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
 import com.google.gson.JsonSerializationContext;
 import com.google.gson.JsonSerializer;
+import edu.brown.cs.networking.Networking;
+import edu.brown.cs.networking.users.User;
 
 
-class GroupSerializer implements JsonSerializer<Group> {
+public class GroupSerializer implements JsonSerializer<Group> {
 
   @Override
   public JsonElement serialize(Group src, Type typeOfSrc,

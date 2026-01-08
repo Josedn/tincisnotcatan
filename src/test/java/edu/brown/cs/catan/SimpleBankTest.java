@@ -2,6 +2,9 @@ package edu.brown.cs.catan;
 
 import static org.junit.Assert.assertTrue;
 
+import edu.brown.cs.catan.bank.Bank;
+import edu.brown.cs.catan.bank.SimpleBank;
+import edu.brown.cs.catan.settings.Settings;
 import org.junit.Test;
 
 public class SimpleBankTest {

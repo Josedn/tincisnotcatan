@@ -1,4 +1,4 @@
-package edu.brown.cs.networking;
+package edu.brown.cs.networking.misc;
 
 import java.util.HashSet;
 import java.util.Set;

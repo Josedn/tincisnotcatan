@@ -6,9 +6,9 @@ import java.util.List;
 import java.util.Map;
 
 import edu.brown.cs.board.entities.*;
-import edu.brown.cs.catan.Player;
-import edu.brown.cs.catan.Referee;
-import edu.brown.cs.catan.Referee.GameStatus;
+import edu.brown.cs.catan.player.Player;
+import edu.brown.cs.catan.referee.Referee;
+import edu.brown.cs.catan.referee.Referee.GameStatus;
 import edu.brown.cs.catan.Resource;
 
 public class Intersection {
